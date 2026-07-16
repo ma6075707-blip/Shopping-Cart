@@ -16,3 +16,4 @@ ENV JAVA_OPTS="-Xms128m -Xmx512m -Djava.security.egd=file:/dev/./urandom -Djava.
 
 # ENTRYPOINT wrapped in sh -c for Alpine stability
 ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -jar app.jar"]
+# 
