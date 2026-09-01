@@ -106,6 +106,8 @@ public class User {
 
     public Collection<Role> getRoles() {
         return roles;
+    } public void setRoles(Collection<Role> roles) {
+        this.roles = roles;
     }
 
     public void setRoles(Collection<Role> roles) {
