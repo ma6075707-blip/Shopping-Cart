@@ -110,7 +110,5 @@ public class User {
         this.roles = roles;
     }
 
-    public void setRoles(Collection<Role> roles) {
-        this.roles = roles;
-    }
+
 } 
