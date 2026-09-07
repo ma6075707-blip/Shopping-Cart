@@ -29,5 +29,5 @@ public class GlobalExceptionHandler {
         modelAndView.addObject("errorMessage", errorMessage);
         return modelAndView;
     }
-
+}
 
